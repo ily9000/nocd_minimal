@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0938189220057EDA00E5FFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938189120057EDA00E5FFB3 /* AppDelegate.swift */; };
-		0938189420057EDA00E5FFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938189320057EDA00E5FFB3 /* ViewController.swift */; };
-		0938189720057EDA00E5FFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0938189520057EDA00E5FFB3 /* Main.storyboard */; };
+		0938189420057EDA00E5FFB3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0938189320057EDA00E5FFB3 /* TabBarController.swift */; };
 		0938189920057EDA00E5FFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0938189820057EDA00E5FFB3 /* Assets.xcassets */; };
 		0938189C20057EDA00E5FFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0938189A20057EDA00E5FFB3 /* LaunchScreen.storyboard */; };
+		093818A42005B3A500E5FFB3 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818A32005B3A500E5FFB3 /* PlanViewController.swift */; };
+		093818A62005B3D200E5FFB3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818A52005B3D200E5FFB3 /* ProfileViewController.swift */; };
+		093818A82005B4EB00E5FFB3 /* SOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818A72005B4EB00E5FFB3 /* SOSViewController.swift */; };
+		093818AA2006F2C800E5FFB3 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818A92006F2C800E5FFB3 /* CircleSlider.swift */; };
+		093818AD2007F81F00E5FFB3 /* AngleGradientBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818AC2007F81F00E5FFB3 /* AngleGradientBorderView.swift */; };
+		093818AF2009A2CD00E5FFB3 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818AE2009A2CD00E5FFB3 /* utils.swift */; };
+		093818B1200E876100E5FFB3 /* ColorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093818B0200E876000E5FFB3 /* ColorsManager.swift */; };
+		B4CF3ED1049F7A7954988F07 /* Pods_nOCD_minimal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA65DE309135C5DE6679BD /* Pods_nOCD_minimal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0938188E20057EDA00E5FFB3 /* nOCD_minimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nOCD_minimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0938189120057EDA00E5FFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0938189320057EDA00E5FFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0938189620057EDA00E5FFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0938189320057EDA00E5FFB3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		0938189820057EDA00E5FFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0938189B20057EDA00E5FFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0938189D20057EDA00E5FFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093818A32005B3A500E5FFB3 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		093818A52005B3D200E5FFB3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		093818A72005B4EB00E5FFB3 /* SOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSViewController.swift; sourceTree = "<group>"; };
+		093818A92006F2C800E5FFB3 /* CircleSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
+		093818AC2007F81F00E5FFB3 /* AngleGradientBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleGradientBorderView.swift; sourceTree = "<group>"; };
+		093818AE2009A2CD00E5FFB3 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		093818B0200E876000E5FFB3 /* ColorsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsManager.swift; sourceTree = "<group>"; };
+		17FA65DE309135C5DE6679BD /* Pods_nOCD_minimal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nOCD_minimal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F661F411C2A5410532A249 /* Pods-nOCD_minimal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nOCD_minimal.release.xcconfig"; path = "Pods/Target Support Files/Pods-nOCD_minimal/Pods-nOCD_minimal.release.xcconfig"; sourceTree = "<group>"; };
+		E0511C01A942ADF5C1FE6B69 /* Pods-nOCD_minimal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nOCD_minimal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nOCD_minimal/Pods-nOCD_minimal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CF3ED1049F7A7954988F07 /* Pods_nOCD_minimal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				0938189020057EDA00E5FFB3 /* nOCD_minimal */,
 				0938188F20057EDA00E5FFB3 /* Products */,
+				5B53B3D41B550D346DDA337B /* Pods */,
+				0D1A4EE30BEA42688F8079DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				0938189120057EDA00E5FFB3 /* AppDelegate.swift */,
-				0938189320057EDA00E5FFB3 /* ViewController.swift */,
-				0938189520057EDA00E5FFB3 /* Main.storyboard */,
+				0938189320057EDA00E5FFB3 /* TabBarController.swift */,
 				0938189820057EDA00E5FFB3 /* Assets.xcassets */,
 				0938189A20057EDA00E5FFB3 /* LaunchScreen.storyboard */,
 				0938189D20057EDA00E5FFB3 /* Info.plist */,
+				093818A32005B3A500E5FFB3 /* PlanViewController.swift */,
+				093818A52005B3D200E5FFB3 /* ProfileViewController.swift */,
+				093818A72005B4EB00E5FFB3 /* SOSViewController.swift */,
+				093818A92006F2C800E5FFB3 /* CircleSlider.swift */,
+				093818AC2007F81F00E5FFB3 /* AngleGradientBorderView.swift */,
+				093818AE2009A2CD00E5FFB3 /* utils.swift */,
+				093818B0200E876000E5FFB3 /* ColorsManager.swift */,
 			);
 			path = nOCD_minimal;
+			sourceTree = "<group>";
+		};
+		0D1A4EE30BEA42688F8079DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FA65DE309135C5DE6679BD /* Pods_nOCD_minimal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B53B3D41B550D346DDA337B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0511C01A942ADF5C1FE6B69 /* Pods-nOCD_minimal.debug.xcconfig */,
+				D8F661F411C2A5410532A249 /* Pods-nOCD_minimal.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 093818A020057EDA00E5FFB3 /* Build configuration list for PBXNativeTarget "nOCD_minimal" */;
 			buildPhases = (
+				855C6130F2E443C9C7946192 /* [CP] Check Pods Manifest.lock */,
 				0938188A20057EDA00E5FFB3 /* Sources */,
 				0938188B20057EDA00E5FFB3 /* Frameworks */,
 				0938188C20057EDA00E5FFB3 /* Resources */,
+				A869BDF32510BA262D39B07A /* [CP] Embed Pods Frameworks */,
+				261D5358C8BCAFC8426CA6C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +170,85 @@
 			files = (
 				0938189C20057EDA00E5FFB3 /* LaunchScreen.storyboard in Resources */,
 				0938189920057EDA00E5FFB3 /* Assets.xcassets in Resources */,
-				0938189720057EDA00E5FFB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		261D5358C8BCAFC8426CA6C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nOCD_minimal/Pods-nOCD_minimal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855C6130F2E443C9C7946192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nOCD_minimal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A869BDF32510BA262D39B07A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nOCD_minimal/Pods-nOCD_minimal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AngleGradientLayer/AngleGradientLayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AngleGradientLayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nOCD_minimal/Pods-nOCD_minimal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0938188A20057EDA00E5FFB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0938189420057EDA00E5FFB3 /* ViewController.swift in Sources */,
+				0938189420057EDA00E5FFB3 /* TabBarController.swift in Sources */,
+				093818AD2007F81F00E5FFB3 /* AngleGradientBorderView.swift in Sources */,
+				093818A82005B4EB00E5FFB3 /* SOSViewController.swift in Sources */,
+				093818AA2006F2C800E5FFB3 /* CircleSlider.swift in Sources */,
 				0938189220057EDA00E5FFB3 /* AppDelegate.swift in Sources */,
+				093818A62005B3D200E5FFB3 /* ProfileViewController.swift in Sources */,
+				093818B1200E876100E5FFB3 /* ColorsManager.swift in Sources */,
+				093818A42005B3A500E5FFB3 /* PlanViewController.swift in Sources */,
+				093818AF2009A2CD00E5FFB3 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0938189520057EDA00E5FFB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0938189620057EDA00E5FFB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0938189A20057EDA00E5FFB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +369,7 @@
 		};
 		093818A120057EDA00E5FFB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0511C01A942ADF5C1FE6B69 /* Pods-nOCD_minimal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +378,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ilyas.nOCD-minimal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +386,7 @@
 		};
 		093818A220057EDA00E5FFB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F661F411C2A5410532A249 /* Pods-nOCD_minimal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +395,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ilyas.nOCD-minimal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
